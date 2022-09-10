@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto escondido</title>
+    <style>
+        div{
+            background-color: blue;
+            color: white;
+            padding: 3px;
+            border-radius: 3px;
+            margin: auto;
+            
+            font-weight: bolder;
+            font-size: 1.5em;
+            width: 300px;
+            text-align: center;
+
+         
+
+        }
+        div > p {
+            display: none ;
+        }
+        div:hover> p {
+            display: block;
+        }
+        div:hover{
+            background-color: rgba(81, 119, 243, 0.822);
+            font-size: 2em;
+        }
+        .c::after{
+            content: ' >';
+      }
+      .c::before{
+        content: '< ';
+      }
+      h1:active{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+    </style>
+</head>
+<body>
+    <div>
+        Passe o mouse aqui
+        <p>SURPRESA !</p>
+
+    </div>
+    <p class="c">Conteúdo em CSS</p>
+    <h1>Clique para trocar a fonte</h1>
+
+    
+    
+</body>
+</html>

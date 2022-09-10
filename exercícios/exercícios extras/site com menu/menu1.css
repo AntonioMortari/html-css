@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top , #0CF742, #6EF70C , #B8ED0C);
+    background-attachment: fixed;
+}

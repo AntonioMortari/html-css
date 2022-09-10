@@ -1,0 +1,13 @@
+@charset "UTF-8";
+h1{
+    font-family: sans-serif;
+    
+    color:#FFFFFF;
+}
+a{
+    color: #4DF018;
+    font-style: inherit;
+    font-size: 20px;
+    font-family: sans-serif;
+     
+}

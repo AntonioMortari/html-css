@@ -1,0 +1,48 @@
+Emojis usados
+
+
+carinhas
+
+U+1F911
+
+ U+1F60E
+
+ U+1F47D
+
+
+
+mão 
+U+1F919
+U+270C(️ U+FE0F)
+U+1F44D
+
+
+
+animais
+U+1F435
+U+1F436
+U+1F434
+
+
+esportes
+U+1F3AF
+U+26BD
+U+1F947
+
+
+comidas
+U+1F34E
+ U+1F955
+U+1F373
+
+
+objetos
+U+231B
+U+1F579( U+FE0F)
+U+1F4BB
+
+
+
+
+
+

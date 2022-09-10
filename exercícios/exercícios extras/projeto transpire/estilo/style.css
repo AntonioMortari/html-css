@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+/*Cabeçalho*/
+
+/*Cabeçalho*/
+
+
+
+/*Menu*/
+nav{
+    text-align: center;
+    
+}
+nav a {
+    text-decoration: none;
+    font-weight: normal;
+    margin-right: 25px;
+    color: black;
+    font-size: 0.92em;
+    transition-duration: 0.3s;
+}
+
+nav a:hover{
+    color: rgb(12, 12, 209);
+}
+
+
+
+
+nav img {
+    position: relative;
+    width: 160px;
+    left: -170px;
+    top: 21px;
+}
+
+/*Menu*/
+
+
+
+/*Conteúdo principal*/
+main{
+    min-width: 400px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+   
+    line-height: 34px;
+}
+
+#l1{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1em;
+    color: #0265b1;
+    
+}
+main h1 {
+    font-size: 2.5em;
+    max-width: 80%;
+    line-height:45px;
+    text-indent: 0px;
+    color: black;
+    font-weight: 500;
+    margin-top: 10px;
+    
+}
+main h2{
+    font-size: 2em;
+}
+
+main h3{
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+ul{
+    color: #888;
+    list-style: square;
+}
+
+main aside h2{
+    font-weight:500;
+
+}
+main aside a {
+    color: #0265b1;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+main aside a:hover{
+    color: black;
+}
+
+main p {
+    color: #646464;
+}
+main strong{
+    color: black ;
+    font-weight: normal;
+}
+
+main p a {
+    color: #0265b1;
+    font-weight: bold;
+}
+main p a:hover{
+    text-decoration: none;
+    color: black;
+    
+}
+
+main img{
+    width: 100%;
+}
+
+/*Conteúdo principal*/
+
+
+
+/*Rodapé*/
+footer {
+    background-color: #888;
+    color: white;
+    font-weight: bold;
+    padding: 1px;
+    text-align: center;
+    margin-top: 15px;
+}
+footer:hover{
+    
+}
+
+/*Rodapé*/
