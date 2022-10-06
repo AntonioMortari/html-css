@@ -12,9 +12,10 @@
 
         table{
             width: 400px;
+            height: 400px;
             
             padding: 8px;
-            text-align: center;
+            
             border-collapse: collapse;
             
         }
@@ -28,11 +29,16 @@
 
         td{
             border: 1px solid black;
+            text-align: center;
+            vertical-align: top;
         }
 
-        td.dado{
-            background-color: yellow;
+        .numero{
+            text-align: right;
+            vertical-align: bottom;
         }
+
+    
     </style>
 </head>
 <body>
@@ -44,31 +50,34 @@
     -->
 
     <table>
+        
 
         <tr> <!--Primeira linha-->
+            
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
 
         </tr>
 
-        <tr class="linha">
+        <tr>
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
 
         <tr>
-            <td class="dado">A3</td>
-            <td>B3</td>
+            <td >A3</td>
+            <td class="numero">B3</td>
             <td>C3</td>
         </tr>
 
         <tr>
-            <td>A4</td>
+            <td class="numero">A4</td>
             <td>B4</td>
-            <td class="dado">C4</td>
-        </tr>
+            <td>C4</td>
+        </tr>    
+            
 
 
     </table>
