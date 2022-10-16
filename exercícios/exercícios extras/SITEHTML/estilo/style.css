@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+
+:root{
+    --cor1:#042326 ;
+     --cor2:#0A3A40;
+    --cor3:#0F5959 ;
+    --cor4: #1D7373;
+    --cor5: #107361;
+}
+
+body{
+    height: 98vh;
+    font-family: arial;
+    margin: 0px;
+    background-image: linear-gradient(to bottom, rgb(212, 212, 212) , transparent);
+    background-attachment: fixed;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+
+header h1{
+    font-size: 2.3em;
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 5px;  
+    font-variant: small-caps;  
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    background-color: var(--cor3);
+    padding-bottom: 17px;
+    
+}
+nav a{
+    margin-right: 20px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 16px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    font-weight: normal;
+    
+}
+nav a:hover{
+    background-color: var(--cor1);
+    color: var(--cor5);
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+
+main{
+    max-width: 800px;
+    min-width: 400px;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.26);
+}
+
+main h1{
+    color: var(--cor4);
+    margin-bottom: 0px;
+    font-size: 3em;
+
+    
+}
+
+main h2{
+    color :white;
+    background-image: linear-gradient(to right , var(--cor2),transparent);
+    padding: 4px;
+}
+
+main p{
+    line-height: 34px;
+    font-size: 1em;
+}
+
+main a img.imagem{
+    width: 100%;
+    transition-duration: 0.3s;
+}
+main a img.imagem:hover{
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.315);
+}
+
+main section {
+    height: 300px;
+    width: 100%;
+    background-image: url(../imagens/paisagem.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+    box-shadow: inset 2px 2px 7px rgba(0, 0, 0, 0.384);
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+th,td{
+    border: 1px solid black;
+    padding: 5px;
+    width: 200px;
+}
+
+th{
+    font-weight: bolder;
+    color: white;
+    background-color: gray;
+}
+
+td#total{
+    background-color: gray;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+tr:nth-child(odd){
+    background-color: rgb(194, 194, 194);
+}
+
+
+footer{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    text-align: center;
+    margin-top: 10px;
+    color: white;  
+    padding: 1px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
